@@ -1,12 +1,24 @@
-# Tags: latest, 1.23.0-debian-10-r81, 1.23.0, 1-debian-10, 1
+# Tags: latest, 1.23.0-debian-10-r86, 1.23.0, 1-debian-10, 1
 FROM bitnami/cluster-autoscaler:latest
-FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r81
+FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r86
 FROM bitnami/cluster-autoscaler:1.23.0
 FROM bitnami/cluster-autoscaler:1-debian-10
 FROM bitnami/cluster-autoscaler:1
 
 # Tags: _
 FROM bitnami/cluster-autoscaler:_
+
+# Tags: 1.23.0-debian-10-r85
+FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r85
+
+# Tags: 1.23.0-debian-10-r84
+FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r84
+
+# Tags: 1.23.0-debian-10-r83
+FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r83
+
+# Tags: 1.23.0-debian-10-r81
+FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r81
 
 # Tags: 1.23.0-debian-10-r80
 FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r80
@@ -79,18 +91,3 @@ FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r58
 
 # Tags: 1.23.0-debian-10-r57
 FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r57
-
-# Tags: 1.23.0-debian-10-r56
-FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r56
-
-# Tags: 1.23.0-debian-10-r55
-FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r55
-
-# Tags: 1.23.0-debian-10-r54
-FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r54
-
-# Tags: 1.23.0-debian-10-r53
-FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r53
-
-# Tags: 1.23.0-debian-10-r52
-FROM bitnami/cluster-autoscaler:1.23.0-debian-10-r52
